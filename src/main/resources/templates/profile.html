@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>profile</title>
+</head>
+<body>
+    <h1>This is <span th:text="${name}"></span>'s profile</h1>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td th:text="${name}">Name</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td th:text="${city}">City</td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td th:text="${dob}">Date of birth</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td th:text="${address}">Address</td>
+        </tr>
+        <tr>
+            <td>Postnumber</td>
+            <td th:text="${postnumber}">Postnumber</td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td th:text="${username}">Username</td>
+        </tr>
+        <tr>
+            <td>Short description</td>
+            <td th:text="${shortdesc}">Short description</td>
+        </tr>
+        <tr>
+            <td>Long description</td>
+            <td th:text="${longdesc}">Long description</td>
+        </tr>
+
+    </table>
+
+    <img src="hornyHamster.png">
+
+</body>
+</html>

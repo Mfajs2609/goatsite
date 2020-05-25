@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Menu</title>
+    <link rel="stylesheet" href="css/MyCSS.css">
+</head>
+<body>
+
+<div style="float: right">
+    <p> Please input your login information. </p>
+    <form th:action="@{/mainmenu}" method="post">
+        <div style="float: left"><label> User Name : <input type="text" name="username"/> </label></div>
+        <div style="float: left"><label> Password: <input type="password" name="password"/> </label></div>
+        <div style="float: left;"><input type="submit" value="Sign In"/></div>
+    </form>
+
+    <a href="/createprofile">
+        <button class="signUpButton"/>Sign Up</button>
+    </a>
+
+</div>
+
+<div id="logo">
+    <div>
+        <img style="text-align: center" src="images/rainbow.png" alt="" height="300" width="600">
+    </div>
+    <div>
+        <h1 style="text-align: center"> Goat Grindr </h1>
+    </div>
+
+</div>
+
+<footer class="advertisements">
+
+    <h1 id="advertisements">
+        Advertisements from our partner sites
+    </h1>
+
+    <div>
+        <div style="font-size: 11px; float: left">
+            <div style="float: left; padding-right: 20px">
+                <a href="https://geekprank.com/fake-virus/">
+                <img src="images/hornyHamster.png" height="150" width="150">
+            </a></div>
+            <div style="padding-right: 20px; float: left; border-right: solid blueviolet">
+                <p>
+                <p>Find hot horny hamsters nearby you.
+                <p>We offer all types of sizes and color variations.
+                <p>With a premium subscription,
+                <p>you even get access to retired "show hamsters".
+                <p>What are you waiting for?
+                </p>
+            </div>
+        </div>
+
+        <div style="font-size: 11px">
+            <div style="float:left;">
+                <a href="https://geekprank.com/fake-virus/">
+                <img style="padding-left: 20px" src="images/TortoiseTinder.png" height="150" width="150">
+            </a></div>
+            <div style="float:left; padding-left: 20px" >
+                <p>
+                <p>Worlds biggest dating site for tortoises.
+                <p>We currently offer at innovative website.
+                <p>We promise you to find a tortoise,
+                <p>of your liking with the speed of a tortoise
+                <p>Grab your roundest shield and find your tortoise?
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    Background-color: #ff0d7b;
+    color: #ffffff;
+}
+p, h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+#advertisements{
+    font-size: 15px;
+}
+.advertisements{
+    border-top: whitesmoke;
+    font-size: 11px;
+}
+
+#logo{
+    text-align:center;
+    margin: 0 auto;
+}
+
+#hornyHamsterDescription{
+    font-size: 8px;
+}
+
+.login{
+    float: right;
+    padding-right: 150px;
+
+    border: whitesmoke;
+    border-radius: 5px;
+}
+
+#profilePic{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+#wrapper{
+    text-align: center;
+
+}
